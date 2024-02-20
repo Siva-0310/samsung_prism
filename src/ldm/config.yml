@@ -1,0 +1,9 @@
+model:
+  - batch_size:4
+  - img_size:256
+  - lambda_i:0.2
+  - loss_i:'watson-vgg'
+  - loss_w:'bce'
+  - optimizer:'AdamWlr:5e-4'
+  - steps:100
+  - warmup_steps:20
